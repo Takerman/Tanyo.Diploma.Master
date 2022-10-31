@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FMI.Gateways.Services.Services.GatewayService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FMI.Gateways.Services.Services.PeripherialDeviceService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="1.5" Width="2" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FMI.Gateways.Services.Repositories.GatewayRepository">
+    <Position X="4.25" Y="3.75" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FMI.Gateways.Services.Repositories.PeripheralDeviceRepository">
+    <Position X="6.75" Y="3.75" Width="2.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FMI.Gateways.Services.Repositories.RepositoryBase&lt;T&gt;">
+    <Position X="6" Y="0.5" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FMI.Gateways.Services.Repositories.RepositoryWrapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FMI.Gateways.Services.Extensions.Extensions" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FMI.Gateways.Data.Entities.Gateway" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FMI.Gateways.Data.Entities.PeripheralDevice" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="FMI.Gateways.Data.Contexts.GatewaysContext" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="FMI.Gateways.Services.Services.Contracts.IGatewayService">
+    <Position X="10.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="FMI.Gateways.Services.Services.Contracts.IPeripherialDeviceService">
+    <Position X="12.5" Y="2.25" Width="2" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="FMI.Gateways.Services.Services.Contracts.IServiceBase">
+    <Position X="11.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="FMI.Gateways.Services.Repositories.Contracts.IGatewayRepository">
+    <Position X="4.25" Y="8" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="FMI.Gateways.Services.Repositories.Contracts.IPeripherialDeviceRepository">
+    <Position X="6.75" Y="8" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="FMI.Gateways.Services.Repositories.Contracts.IRepositoryBase&lt;T&gt;">
+    <Position X="5.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="FMI.Gateways.Services.Repositories.Contracts.IRepositoryWrapper" Collapsed="true">
+    <Position X="15.5" Y="3.75" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
